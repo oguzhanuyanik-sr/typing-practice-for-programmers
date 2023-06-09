@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+html, body, p, input {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background: #706fd3;
+}
+
+p {
+  height: 70px;
+  width: 70px;
+  padding: 0 20px;
+  border-radius: 5px;
+  font-size: 32px;
+  color: #f7f1e3;
+  background: #40407a;
+  user-select: none;
+}
+
+input {
+  height: 40px;
+  width: 210px;
+  margin-top: 50px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #40407a;
+  background: #f7f1e3;
+  pointer-events:none;
+}
+
+input::selection {
+  background: #f7f1e3;
+}
